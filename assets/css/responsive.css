@@ -1,0 +1,123 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1024px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+    .navbar {
+        display: none;
+    }
+
+    button#mobile-menu {
+        display: block;
+    }
+
+    .contact-btn {
+        display: flex;
+    }
+
+    img.banner-img {
+        width: 120%;
+    }
+
+    .banner-left h1 {
+        font-size: 33px;
+        line-height: 39px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+    header button.mk-btn {
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        padding: 0;
+        line-height: 30px;
+        margin-top: 4px;
+
+    }
+    button#mobile-menu {
+        font-size: 32px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 576px) {
+    /* Header Section Start Here   */
+
+    /* Header Section Start Here   */
+
+    /* Banner Section Start Here   */
+
+    /* Banner Section Start Here   */
+
+    /* About Section Start Here   */
+
+    /* About Section Start Here   */
+
+    /* Resume Section Start Here   */
+
+    /* Resume Section Start Here   */
+
+    /* Service Section Start Here   */
+
+    /* Service Section Start Here   */
+
+    /* Projects Section Start Here   */
+
+    /* Projects Section Start Here   */
+
+    /* Blog Section Start Here   */
+
+    /* Blog Section Start Here   */
+
+    /* Contact Section Start Here   */
+
+    /* Contact Section Start Here   */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    /* Header Section Start Here   */
+
+    /* Header Section Start Here   */
+
+    /* Banner Section Start Here   */
+
+    /* Banner Section Start Here   */
+
+    /* About Section Start Here   */
+
+    /* About Section Start Here   */
+
+    /* Resume Section Start Here   */
+
+    /* Resume Section Start Here   */
+
+    /* Service Section Start Here   */
+
+    /* Service Section Start Here   */
+
+    /* Projects Section Start Here   */
+
+    /* Projects Section Start Here   */
+
+    /* Blog Section Start Here   */
+
+    /* Blog Section Start Here   */
+
+    /* Contact Section Start Here   */
+
+    /* Contact Section Start Here   */
+}

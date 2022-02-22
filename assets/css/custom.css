@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --bg-gray: #f9f9f9;
+    --p1: #9e9db3;
+    --p2: #5a5872;
+    --h-color: #2b2a3d;
+
+    --primary: #e84e4e;
+}
+
+html{
+    font-size: 100%;  /*use % , not px*/ 
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.125rem;
+    text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    color: var(--h-color);
+    margin: 0;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+h1 {
+    font-size: 3.75rem;
+    line-height: 5.3125rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--primary);
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.mk-btn {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.8125rem 2.875rem;
+    display: inline-block;
+    color: #fff;
+    background: var(--primary);
+}
+
+.vcenter {
+    justify-content: center;
+    text-align: center;
+}
+
+.light-gray {
+    background: var(--bg-gray);
+}
+
+
+.p1{
+    color: var(--p1);
+}
+.p2{
+    color: var(--p2);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* Transition  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* No changable  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pb-100{
+    padding-bottom: 6.25rem;
+}
+
+.pb-120{
+    padding-bottom: 7.5rem;
+}
+
+
+
+.py-100{
+    padding: 6.25rem 0;
+}
+.py-120{
+    padding: 7.5rem 0;
+}
+
+
+
+
